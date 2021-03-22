@@ -4,6 +4,6 @@ with application.test_client() as c:
     assert response.data == b'Your Flask App Works!'
     assert response.status_code == 200
     response2 = c.get('/hello')
-    assert response2.data == b'Hello World!'
+    assert response2.data == b'Hello Hello!'
     assert response2.status_code == 200
 

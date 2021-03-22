@@ -9,7 +9,7 @@ def index():
 
 @application.route("/hello")
 def hello():
-    return "Hello World!"
+    return "Hello Hello!"
 
 
 if __name__ == "__main__":
